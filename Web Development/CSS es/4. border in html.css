@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: 'Segoe UI';
+    color:aliceblue
+}
+#h1{
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(201, 0, 201);
+    border-radius: 10px;
+}
+#p1{
+    /* In one line style*/
+    border: 3px dotted  rgb(0, 100, 194);
+    border-radius: 10px;
+}
+#p2{
+    border-bottom: 3px solid rgb(0, 201, 107);
+    border-top: 3px dotted rgb(201, 0, 201);
+    border-right: 3px double rgb(248, 12, 51);
+    border-left: 3px dotted rgb(231, 209, 9);
+    border-width:8px;
+    border-radius: 10px
+}

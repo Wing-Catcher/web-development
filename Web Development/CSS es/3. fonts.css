@@ -1,0 +1,34 @@
+/*Create a font face rule for adding local fonts yo*/
+@font-face{
+    src: url(fonts/Oswald-Regular.ttf);
+    font-family: OswaldRegular
+}
+
+body{
+    background-color: #313131;
+    h1{
+        color:white;
+        /*Make sure to make backup font in case the client browser does not support it
+        separate it with comma ","*/
+        font-family: roboto, arial, "segoe UI";
+        font-style: italic;
+        font-weight: 800;
+        font-size: 3em;
+    }
+    h2{
+        color:white;
+        font-family: 'Segoe UI', Arial;
+        font-style: initial;
+    }
+    
+}
+.local{
+        color:white;
+        font-family: OswaldRegular;
+        font-size: 3em;
+}
+#p1,#p2{
+    color:white;
+    font-family: 'Segoe UI', Arial;
+    font-style: initial;
+}

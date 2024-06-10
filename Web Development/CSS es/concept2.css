@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(44, 44, 44);
+    color:aliceblue;
+    font-family: 'Segoe UI';
+}
+#hr1{
+    width: 1000px;
+}
+#title{
+    font-size: 300%;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px yellow, -5px -5px 10px rgb(17, 173, 69);
+}
+#logo{
+    position: absolute;
+    width: 30%;
+    max-width: min-content;
+    min-width: 0%;
+    right:0%;
+}
+#box1{
+    color: black;
+    background-color: rgb(65, 255, 75);
+    border-radius: 30px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#box2{
+    position: relative;
+    background-color: rgb(255, 107, 48);
+    border-radius: 30px;
+    max-width: fit-content;
+    max-height: fit-content
+}
+#box3{
+    position: absolute;
+    top: 730px;
+    left: 460px;
+    background-color: rgb(56, 209, 255);
+    border-radius: 30px;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+#guru{
+    position: absolute;
+    width: 300px;
+    right: 5%;
+    top: 730px;
+    border-radius: 10px;
+}
+#inbox1,#inbox2{
+    max-width: 65%;
+    position: relative;
+    left: 30px;
+    top: 10px
+}
+#inbox3{
+    max-width: 65%;
+    position: relative;
+    left: 30px;
+    top: 0px
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Videos.html</title>
+    </head>
+    <body>
+        <h1>Videos in html</h1>
+        <br>
+        <a href="2. Hyperlinks.html"
+        title="Goes to Home">
+            Home
+        </a>
+        <hr>
+        
+        <p>Sample video</p>
+        <!--Only in mp4. webm, ogg -->
+        <p>First method with hyperlink href</p>
+        <a href="https://obsproject.com/download"
+        target="_blank">
+            <video src="media/sample_vid.mp4"
+            controls
+            width="500">
+            </video>
+        </a>
+        <p>Sorry it didnt work, but actually its just a faulty video</p>
+        <br>
+        <br>
+        
+        <p>Second method</p>
+        <video controls
+        width="500">
+            <source src="media/sample_vid.mp4">
+        </video>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(204, 216, 156);
+}
+#p1{
+    color:red;
+    background-color: gray;
+    /*# for that*/
+}
+#p2{
+    color:greenyellow;
+    background-color: gray;
+}
+#p3{
+    color:cyan;
+    background-color: gray;
+    outline: 5px; outline-style: dotted; outline-color: magenta;
+}
+#p4{
+    color: magenta;
+    background-color: gray;
+}
+.even{
+    background-color: blue;
+    color:wheat;
+    outline:5px;
+    outline-color: magenta;
+    outline-style: auto;
+} /*dot even for class (html line 32 and such)*/

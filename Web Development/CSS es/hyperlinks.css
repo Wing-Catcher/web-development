@@ -1,0 +1,17 @@
+body{
+    background-color: #1b1b1b;
+}
+#h1,#p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue
+}
+#h1,#p1,#main1,#main2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    border-radius: 8px;
+}
+#h1{
+    font-weight: bolder;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px yellow, -5px -5px 10px rgb(17, 173, 69);
+}
