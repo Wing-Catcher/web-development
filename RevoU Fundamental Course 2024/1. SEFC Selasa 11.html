@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SEFC Selasa 11</title>
+        <link rel="icon" type="image/png" href="/Web Development/media/icons8-website-90.png">
+        <link rel="stylesheet" href="CSS/sefc_selasa11.css">
+    </head>
+    <body>
+        <div id="box">
+            <div id="inbox">
+                <h1 id="head">SEFC Selasa 11</h1>
+                <hr>
+                <h1>Ini heading 1</h1>
+                <h2>Ini heading 2</h2>
+                <h3>Ini heading 3</h3>
+                <h4>Ini heading 4</h4>
+                <h5>Ini heading 5</h5>
+                <h6>ini heading 6</h6>
+                <br>
+                <ul>
+                    <li><p>Unordered list</p></li>
+                    <li><p>Unordered list</p></li>
+                    <li><p>Unordered list</p></li>
+                </ul>
+                <ol>
+                    <li><p>Ordered list</p></li>
+                    <li><p>Ordered list</p></li>
+                </ol>
+                <h3>Table</h3>
+                <!--table head, table data, table row-->
+                <table border="1" id="table">
+                    <tr>
+                        <th>Nama</th>
+                        <th>Makanan</th>
+                    </tr>
+                    <tr>
+                        <td>Asri</td>
+                        <td>Mie Goreng</td>
+                    </tr>
+                </table>
+                <!--Images-->
+                <h3>Images</h3>
+                <img style="border-radius: 30px;" width="400px" alt="brocode image pfp" src="https://yt3.ggpht.com/a/AATXAJyJzCWm7vikvPo3d_k5-BztJwEL9txoV7Soew=s900-c-k-c0xffffffff-no-rj-mo">
+                <br>
+                <!--Hyperlinks-->
+                <h3>Hyperlink</h3>
+                <a target="_blank" href="https://google.com">
+                    Go to google
+                </a><br>
+                <a href="nav.html">
+                    Navigator
+                </a>
+                <a href="#head">
+                    Back to top
+                </a>
+                <!--Form dengan labels thanks to BroCode-->
+                <form index.php" method="post" enctype="multipart/form-data">
+                    <p>Required like password, no backend</p>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" placeholder="Min 6, Max 15" minlength="6" maxlength="15" required>
+
+                    <br><label for="pass">Password:</label>
+                    <input type="password" id="pass" placeholder="Your Password">
+                    <br><br>
+
+                    <label for="mail">e-Mail</label>
+                    <input type="email" placeholder="Your Email" id="mail"><br>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" placeholder="08x xxx xxxx" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+                    
+                    <label for="birth">Birthdate:</label>
+                    <input type="date" placeholder="Your Birthdate" id="birth"><br>
+
+                    <label for="number">Quantity:</label>
+                    <input type="number" id="number" placeholder="The Quantities" minlength="0" maxlength="999" value="1"><br>
+
+                    <label for="mr" title>Mr.</label>
+                    <input type="radio" id="mr" value="Mr." name="title">
+                    <label for="ms" title">Ms.</label>
+                    <input type="radio" id="ms" value="Ms." name="title">
+                    <label for="phd" title">PhD.</label>
+                    <input type="radio" id="phd" value="PhD." name="title"><br>
+
+                    <label for="pay">Payment</label>
+                    <select id="pay">
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Master Card</option>
+                        <option value="paypal">PayPal</option>
+                    </select><br><br>
+
+                    <label for="sub">Subscribe</label>
+                    <input type="checkbox" id="sub"><br><br>
+
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" rows="3" cols="25"></textarea><br>
+
+                    <label for="file">Choose file:</label>
+                    <input type="file" id="file" accept="image/png, image/jpeg">
+
+                    <select>
+                        <optgroup label="Jus Jus"></optgroup>
+                        <option>Jus jeruk</option>
+                        <option>Jus jeruk</option>
+                        <option>Jus jeruk</option>
+                        <option>Jus jeruk</option>
+                    </select>
+
+                    <br><br><input type="reset">
+                    <input type="submit">
+
+                </form>
+                <br><br>
+                <table id="calc">
+                    <tr>
+                        <th colspan="4"><input placeholder="Nothing seems work here.." style="width: 80%" type="text"></th>
+                    </tr>
+                    <tr>
+                        <td><button>AC</button></td>
+                        <td><button>C</button></td>
+                        <td><button>*</button></td>
+                        <td><button>/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>7</button></td>
+                        <td><button>8</button></td>
+                        <td><button>9</button></td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                        <td><button>-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                        <td><button>=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

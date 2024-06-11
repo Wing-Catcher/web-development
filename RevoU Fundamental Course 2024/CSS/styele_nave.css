@@ -1,0 +1,17 @@
+body{
+    font-family: 'Segoe UI';
+    background-color: #252525;
+    color: white
+}
+#box1{
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.inbox1{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
