@@ -1,5 +1,6 @@
 # Web Development
 
+Made by Wing-Catcher
 This repository contains my progress in learning HTML, CSS, JavaScript, and much more. You can call it my own file dump. Feel free to use and modify any of the content.
 
 ## Table of Contents
