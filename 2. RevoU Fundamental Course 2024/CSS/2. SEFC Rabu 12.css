@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(20,20,20);
+    color: white;
+    font-family: 'Segoe UI';
+    /*COLORS
+    rgb hsl*/
+}
+.box{
+    background-color: rgb(30,30,30);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px white solid
+}
+.inbox{
+    background-color: rgb(30,30,30);
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 10px;
+}
+.mobil{
+    border: 1px white solid;
+}
+a[target]{
+    background-color: yellow;
+}
+#grd{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
+#back{
+    width: 100px;
+    height: 100px;
+    background-image:none;
+    border: 1px white solid
+}
+#lorem{
+    font-family: 'Times New Roman';
+    font-size: 1.5em;
+    color: yellow;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px white solid
+}
+#wrapper{
+    border: 1px white solid;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 10px;
+}
+#calc{ /*Edit kontennya di button sama th input type text*/
+    border: 1px, solid, white;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+button{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: lime;
+    color: black;
+}

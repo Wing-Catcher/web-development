@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    font-family: 'Segoe UI';
+    border: 3px solid;
+    border-color: aliceblue;
+    border-radius: 8px;
+    /*Display new knowledge*/
+    display: flow-root;
+}
+#img1{
+    float: right;
+    margin: 10px;
+}
+#img2{
+    float: left;
+    margin: 10px;
+}

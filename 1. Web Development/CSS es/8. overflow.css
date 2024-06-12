@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-family: 'Segoe UI';
+}
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: scroll;
+    /*Check more at the snippets*/
+}
