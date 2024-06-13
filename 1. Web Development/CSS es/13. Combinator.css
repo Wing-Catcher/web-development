@@ -35,3 +35,18 @@ button{
     margin-left: 20px;
     margin-right: 20px;
 }
+#container{
+    border: 1px white solid
+}
+#container p{
+    background-color: greenyellow;
+    color: black
+}
+#container > p{
+    background-color: rgb(226, 10, 129);
+    color: black
+}
+#container ~ p{
+    background-color: rgb(50, 47, 255);
+    color: black
+}
