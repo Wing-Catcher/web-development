@@ -8,9 +8,6 @@ This repository contains my progress in learning HTML, CSS, JavaScript, and much
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
