@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(20,20,20);
+    font-family: 'Segoe UI';
+    color: white;
+}
+button{
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);;
+}
+#decor{
+    border: 1px solid #00d5ff;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+.box{
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 3px white solid
+}
+.box #inbox1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#div1{
+    /*Default display values for div is block*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    color: black
+}
+#span1{
+    /*Default display values for span is inline*/
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    color: black
+}
+/*Display and Visibility are different element
+If display = none it will hide the object and its position (vanish)
+If visibility = hidden, same as display none but just removing uts appearence, the position is still there*/
