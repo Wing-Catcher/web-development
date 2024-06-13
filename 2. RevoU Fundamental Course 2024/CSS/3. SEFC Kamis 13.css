@@ -1,0 +1,37 @@
+body{
+    background-image: url(/1.\ Web\ Development/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI';
+    color: white;
+}
+button{
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);;
+}
+#decor{
+    border: 1px solid #00d5ff;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.349);
+    background-blend-mode: darken ;
+    backdrop-filter: blur(5px);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: 3px white solid
+}
+.box #inbox1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
