@@ -1,0 +1,66 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: rgb(245, 245, 245);
+}
+h1{
+    font-weight: 400;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    background-color: rgb(108, 150, 150);
+    border-bottom: 3px black solid;
+}
+button{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(255, 224, 51);
+}
+#buttons{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding: 2px;
+    margin-right: 50px;
+    border: 1px aqua solid;
+    border-radius: 10px;
+}
+#icon-top{
+    position: absolute; 
+    margin-left: 50px;
+    height: 100%;
+}
+#facillitation{
+    height: 200px;
+}
+.box{
+    margin: 50px;
+}
+.box2{
+    margin: 50px;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    width: 230px;
+}
+.facil_image{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0);
+}
+.caption {
+    display: block;
+}
