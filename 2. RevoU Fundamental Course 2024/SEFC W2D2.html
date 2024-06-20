@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/SEFC W2D2.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div class="container-row"><input id="display" type="number"></div>
+        <div class="container-row">
+            <button class="btn-AC" onclick="btnClick(this.innerText)">AC</button>
+            <button class="btn" onclick="btnClick(this.innerText)">C</button>
+            <button class="btn" onclick="btnClick(this.innerText)">*</button>
+        </div>
+        <div class="container-row">
+            <button class="btn" value="7" onclick="btnClick(this.innerText)">7</button>
+            <button class="btn" value="8" onclick="btnClick(this.innerText)">8</button>
+            <button class="btn" value="9" onclick="btnClick(this.innerText)">9</button>
+            <button class="btn" value="/" onclick="btnClick(this.innerText)">/</button>
+        </div>
+        <div class="container-row">
+            <button class="btn" value="4" onclick="btnClick(this.innerText)">4</button>
+            <button class="btn" value="5" onclick="btnClick(this.innerText)">5</button>
+            <button class="btn" value="6" onclick="btnClick(this.innerText)">6</button>
+            <button class="btn" value="+" onclick="btnClick(this.innerText)">+</button>
+        </div>
+        <div class="container-row">
+            <button class="btn" value="1" onclick="btnClick(this.innerText)">1</button>
+            <button class="btn" value="2" onclick="btnClick(this.innerText)">2</button>
+            <button class="btn" value="3" onclick="btnClick(this.innerText)">3</button>
+            <button class="btn" value="-" onclick="btnClick(this.innerText)">-</button>
+        </div>
+        <div class="container-row">
+            <button class="btn" value="+ -" onclick="btnClick(this.innerText)">+ -</button>
+            <button class="btn" value="0" onclick="btnClick(this.innerText)">0</button>
+            <button class="btn" value="." onclick="btnClick(this.innerText)">.</button>
+            <button class="btn" value="=" onclick="btnClick(this.innerText)">=</button>
+        </div>
+    </div>
+    <script>
+        var displayCalc = ""
+
+        function btnClick(e) {
+            if (e == "1" || e == "2" || e == "3" || e == "4" || e == "/" || e == "*"){
+               if (e =="AC"){
+                displayCalc = ""
+            }
+            else{
+            displayCalc = displayCalc + e
+            }
+            document.getElementById("display").value = displayCalc 
+            }
+            else{
+                alert("Error input harus berupa angka dan simbol")
+            }
+            
+        }
+        var displayValue = document.getElementById("display").addEventListener('input')
+        function displayChange(){
+            console.log("AAA")
+        }
+        console.log(this.value)
+    </script>
+</body>
+</html>

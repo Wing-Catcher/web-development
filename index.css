@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(30,30,30);
+    background-image: url(/assets/landscape-minimal-stars-cold-5k\ \(1\).jpg);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    background-color: azure;
+    color: blueviolet;
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav_items img{
+    height: 80%;
+}
+
+.container{
+    margin: auto;
+    width: 700px;
+    column-gap: 20px;
+}
+
+.box{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px white solid;
+    border-radius: 20px;
+    gap: 20px;
+}
