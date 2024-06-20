@@ -74,3 +74,27 @@ footer{
     height: 60px;
     background-color: bisque;
 }
+
+h3::first-letter{
+    font-size: 2em;
+}
+p::first-line{
+    background-color: sandybrown;
+}
+p::selection{
+    color: lime;
+    background-color: gray;
+}
+#apple::after{
+    content: "🍎";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    color: lime;
+    font-size: 1.1em
+}

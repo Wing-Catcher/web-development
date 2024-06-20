@@ -74,3 +74,22 @@ footer{
     height: 60px;
     background-color: bisque;
 }
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: sandybrown;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgba(220, 248, 96, 0.767);
+    font-weight: bold;
+    border-radius: 5px;
+}
+/*logic: a yang dihover akan menerapkan css yang not active*/
+.pagination a:hover:not(.active){
+    background-color: rgba(0, 18, 34, 0.548);
+    border-radius: 5px;
+}
