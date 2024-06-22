@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    background-image: url(../media/beautiful.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    background-color: aliceblue;
+    color: rgb(30,30,30);
+    padding: 0px 30px;
+    justify-content: space-between;
+}
+
+#nav-title{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+#nav-title img{
+    height: 80%;
+    border-radius: 10px;
+}
+
+#nav-button{
+    align-self: center;
+}
+
+#nav-button button{
+    height: 30px;
+    background-color: beige;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+#nav-button button:hover{
+    transform: scale(1.2);
+    background-color: rgb(151, 245, 245);
+}
+
+#margin{
+    margin: 30px;
+}
+
+.container{
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column;
+}
+
+header, section{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.158);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+}
+
+footer{
+    color: rgb(30,30,30);
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    background-color: bisque;
+}
+
+h2{
+    text-align: center
+}
+
+.navbar li{
+    list-style-type: none;
+    background-color: bisque;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: aquamarine;
+}
+.navbar li{
+    float: left;
+}
