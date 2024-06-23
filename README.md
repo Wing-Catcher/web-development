@@ -19,7 +19,6 @@ The following technologies are primarily featured in this repository:
 
 - HTML
 - CSS
-- JavaScript
 
 ## Installation
 
